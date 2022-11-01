@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+   font-family: 'Antonio', sans-serif;
+   list-style: none;
+}
+
+#logo{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.nav-link{
+    font-size: 25px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 20px 50px;
+
+}
+
+
+
+
+@media (max-width:1382px) {
+   
+    .text{
+
+        font-size: 50px;
+        font-weight: 600;
+    }          
+  
+        
+}
+
+@media (min-width:1382px) {
+
+    .text {
+    
+        font-weight: 600;
+    }
+ .text2 {
+     font-size: 40px;
+ }
+
+ .text3 {
+     font-size: 70px;
+     
+ }
+
+}
+
+
+@media (max-width:767px) {
+
+    .text {
+        font-size: 50px;
+        text-align: center;
+    }
+    .text2{
+        text-align: center;
+        margin-top: 100px;
+    }
+         .text3{
+             text-align: center;
+            
+         }
+ .text4 {
+     text-align: center;
+
+ }
+
+ #con{
+    text-align: center;
+    margin-top: 30px;
+ }
+   
+ #foot{
+    text-align: center;
+ }
+
+}
+
+@media (max-width:1090px) {
+
+    .text {
+        font-size: 30px;
+    }
+
+
+}
+
+@media (max-width:1200px) {
+
+    .text1 {
+        font-size: 30px;
+    }
+
+
+}
+
+@media (max-width:1000px) {
+
+    .text1 {
+        font-size: 25px;
+    }
+#foot{
+    font-size: 12px;
+}
+
+}
+
+@media (max-width:1480px) {
+
+    .text2 {
+        font-size: 35px;
+    }
+   .text3 {
+       font-size: 40px;
+       font-weight: 600;
+   }
+   #footer{
+    font-size: 15px;
+    font-weight: 600;
+   }
+
+}
+
+div:not(.carousel-item) {
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    from {
+        transform: translateY(20px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+
